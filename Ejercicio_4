@@ -1,0 +1,12 @@
+import java.util.Scanner;
+public class Ejercicio_4 {
+    public static void main(String[] args){
+        Scanner in = new Scanner(System.in);
+        int edad_juan;
+        edad_juan = in.nextInt();
+        int edad_Alb = (2*edad_juan)/3, edad_Ana = (4*edad_juan)/3;
+        int edad_Mama = edad_Alb + edad_Ana + edad_juan;
+
+        System.out.println("Las edades son:\nEdad de Alberto: "+ edad_Alb + "\nEdad de Ana: " + edad_Ana + "\nEdad de Juan: " + edad_juan + "\nEdad de la mamá: " + edad_Mama);
+    }
+}
